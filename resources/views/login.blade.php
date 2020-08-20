@@ -8,6 +8,7 @@
 	<h1>login</h1>
 
 	<form method="post">
+        @csrf
 		<table>
 			<tr>
 				<td>Username</td>
