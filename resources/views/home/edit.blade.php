@@ -8,6 +8,7 @@
 	<h1>Edit user page</h1>
 
 	<form method="post">
+        @csrf
 		<table>
 			<tr>
 				<td>Name</td>
